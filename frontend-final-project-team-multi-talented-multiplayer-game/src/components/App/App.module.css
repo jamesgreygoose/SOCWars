@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+#gotoChoiceButton {
+  width: 15vw;
+  height: 12vh;
+  background-image: url('../../images/startBlack.png');
+  background-repeat: none;
+  background-size: 100%;
+  position: absolute;
+  top: 40vh;
+  left: 85%;
+  transform: translate(-50%);
+  border: yellow 2px solid;
+  border-radius: 20px;
+}

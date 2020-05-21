@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+#room1{
+  width:10vw;
+  height:10vw;
+  position:absolute;
+  top:50vh; 
+  left:20vw;
+  transform:translate(-50%);
+  background-image:url('../../images/1.png');
+  background-size:100% 100%;
+  border-radius: 20px;
+}
+
+#room1Players, #room2Players, #room3Players{
+  font-size: 2vw;
+  position:absolute;
+  top:69vh;
+  color:white;
+  border-radius: 20px;
+  border:yellow solid 3px;
+  background-color:rgba(167, 196, 41, 0.2);
+  width:10vw;
+  padding:0.5vw;
+  margin:3.5vh 0 0 0;
+
+}
+
+#room1Players{
+  left:20vw;
+ }
+
+#room3Players{
+ left:80vw;
+}
+
+
+#room2{
+  width:10vw;
+  height:10vw;
+  position:absolute;
+  top:50vh; 
+  left:50vw;
+  transform:translate(-50%);
+  background-image:url('../../images/2.png');
+  background-size:100% 100%;
+  border-radius: 20px;
+}
+
+#room3{
+  width:10vw;
+  height:10vw;
+  position:absolute;
+  top:50vh; 
+  left:80vw;
+  transform:translate(-50%);
+  background-image:url('../../images/3.png');
+  background-size:100% 100%;
+  border-radius: 20px;
+}
+
+
+.Rooms {
+  background-image: url('../../images/space.jpeg');
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  top: 2vh;
+  left: 50%;
+  transform: translate(-50%);
+  width: 35vw;
+  height: 35vh;
+}
+
+.disabled {
+  background-color: rebeccapurple;
+}
+
+#roomSelect {
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 30vh;
+  left: 11vw;
+}
+
+/* KEYFRAMES FOR ROOM INFO */
+
+.vibrate_1 {
+  -webkit-animation: vibrate_1 0.3s linear infinite both;
+  animation: vibrate_1 0.3s linear infinite both;
+}
+
+@keyframes vibrate_1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}

@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.GameOver {
+  background-image: url('../../images/space.jpeg');
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  transform: translate(-50%);
+  width: 25vw;
+}
+
+.gotoRooms {
+  width: 15vw;
+  height: 12vh;
+  background-image: url('../../images/startClear.png');
+  background-repeat: none;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 80vh;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+}
+
+.gotoRooms:hover {
+  box-shadow:inset 0 0 10px yellow;
+}
+
+#winnerWas {
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 35vh;
+  left: 11vw;
+}
+
+#killedBy {
+  width:80vw;
+  font-size: 2vw;
+  color: white;
+  position: absolute;
+  top: 35vh;
+  left: 48vw;
+  display:block;
+  transform: translate(-47%);
+  border:yellow solid 3px;
+  border-radius: 1vw;
+  padding:3vw;
+  background-color:rgba(80,80,80,0.2);
+  text-shadow: 2px 2px 5px red;
+
+}
+
+#tryAgain {
+  font-size: 1.4vw;
+  color: white;
+  position: absolute;
+  top: 65vh;
+  left: 50vw;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.whoBeatsWhom{
+  width: 8vw;
+  height: 11vh;
+  background-image: url('../../images/gameInstructions/wbwButton.png');
+  background-repeat: none;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 82vh;
+  left: 93%;
+  transform: translate(-50%);
+  border: yellow 2px solid;
+  border-radius: 20px;
+  background-color:rgba(80,80,80,0.5);
+}
+
+/* KEYFRAMES FOR YOU'RE DEAD INFO */
+
+.vibrate_1 {
+	-webkit-animation: vibrate_1 0.3s linear infinite both;
+	        animation: vibrate_1 0.3s linear infinite both;
+}
+
+@keyframes vibrate_1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}

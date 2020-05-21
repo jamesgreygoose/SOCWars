@@ -1,0 +1,51 @@
+.WKW{
+    background-image: url('../../images/space.jpeg');
+    height:100vh;
+    width:100vw;
+}
+
+#vsTable{
+    width:60vw;
+    height:70vh;
+    display:block;
+    position:absolute;
+    top:08vh;
+    left:50vw;
+    transform:translate(-50%);
+    padding:0.5vw;
+    border-radius:  20px;
+    border:yellow solid 3px;
+    background:white;
+    box-shadow: 5px 5px 10px  yellow;
+}
+
+/* .gotoCharacter {
+    width: 15vw;
+    height: 12vh;
+    background-image: url('../../images/startBlack.png');
+    background-repeat: none;
+    background-size: 100%;
+    position: absolute;
+    top: 85vh;
+    left: 90%;
+    transform: translate(-50%);
+    border: yellow 2px solid;
+    border-radius: 20px;
+  } */
+
+  .gotoRooms {
+    width: 15vw;
+    height: 12vh;
+    background-image: url('../../images/startClear.png');
+    background-repeat: none;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+  }
+  
+  .gotoRooms:hover {
+    box-shadow:inset 0 0 10px yellow;
+  }

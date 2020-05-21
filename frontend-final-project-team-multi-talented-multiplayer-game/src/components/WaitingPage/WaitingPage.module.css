@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+h1{
+    font-size: 2.7vw;
+    color:white;
+    width:80vw;
+    position:absolute;
+    left:50vw;
+    top:28vh;
+    transform:translate(-50%);
+    text-align:center;
+}
+
+.WaitingPage{
+    background-image: url('../../images/space.jpeg');
+    height:100vh;
+    width:100vw;
+}
+
+
+#title {
+    position: absolute;
+    top: 2vh;
+    left: 50vw;
+    transform: translate(-50%);
+    width: 25vw;
+  }
+
+
+  span{
+      color:red;
+      text-shadow: 2px 2px 5px honeydew;
+  }
+
+  .gotoRooms {
+    width: 15vw;
+    height: 12vh;
+    background-image: url('../../images/startClear.png');
+    background-repeat: none;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+  }
+  
+  .gotoRooms:hover {
+    box-shadow:inset 0 0 10px yellow;
+  }
+
+  h2{
+    font-size: 2vw;
+    color:white;
+    position:absolute;
+    left:25vw;
+    width:50vw;
+    transform:translate(-50%);
+    text-align: center;
+
+}
+
+.timerInformation{
+    border:yellow solid 3px;
+    border-radius: 1vw;
+    background-color:rgba(167, 196, 41, 0.2);
+    height:25vh;
+    width:50vw;
+    left:25vw;
+    position:absolute;
+    top:50vh;
+}
+
+#jumpText{
+    font-size: 1.2vw;
+    color:white;
+    position: absolute;
+    top:78vh;
+    left:50vw;
+    transform:translate(-50%);
+    text-align: center;
+}
+
+.timerHUD{
+    position:relative;
+    height:20vh;
+    left:25vw;
+    top:3vh;
+    font-size: 5vw;
+    font-family: 'Orbitron', sans-serif;
+}
